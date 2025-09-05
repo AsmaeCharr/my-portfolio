@@ -1,8 +1,15 @@
+import './Header.css'
+
 function Header() {
     return (
         <header className="header">
-            <h1>👋 Hola, soy Mae</h1>
-            <p>Desarrollador Frontend | React & Vite</p>
+            <h1 className="Header__Title">Asmae Charroud</h1>
+            <ul className="Header__List">
+                <li>About me</li>
+                <li>Projects</li>
+                <li>Skills</li>
+                <li>Contact</li>
+            </ul>
         </header>
     )
 }

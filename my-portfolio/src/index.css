@@ -1,51 +1,50 @@
-body {
-  margin: 0;
-  font-family: 'Arial', sans-serif;
-  background: #f9f9f9;
-  color: #333;
+/* +++++++++++++++++++++++++++ Inicio imports +++++++++++++++++++++++++++ */
+
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Special+Gothic+Expanded+One&display=swap');
+
+/* +++++++++++++++++++++++++++ Final imports +++++++++++++++++++++++++++ */
+
+:root {
+    --bg_color: #F5F3E7;
+    --text_color: #222222;
+    --secondary_color: #0051FF;
+    --attention_color: #FFF171;
 }
 
-header,
-section,
-footer {
-  padding: 4rem 2rem;
-  text-align: center;
+.body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--bg_color);
 }
 
-header {
-  background: #222;
-  color: white;
+h1,
+h2,
+h3,
+h4,
+p,
+li,
+a {
+    color: var(--text_color);
 }
 
-.about {
-  background: #fff;
+h1 {
+    font-family: "Special Gothic Expanded One", sans-serif;
+    letter-spacing: 1px;
 }
 
-.projects {
-  background: #f0f0f0;
+p,
+li,
+a,
+button {
+    font-family: "Inter", sans-serif;
+    letter-spacing: .5px;
 }
 
-.project-list {
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
-  margin-top: 1rem;
-}
-
-.project-card {
-  background: white;
-  padding: 1rem;
-  border-radius: 10px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  width: 200px;
-}
-
-.contact {
-  background: #fff;
-}
-
-.footer {
-  background: #222;
-  color: white;
-  padding: 1rem;
+h2,
+h3,
+h4 {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    letter-spacing: .5px;
 }
