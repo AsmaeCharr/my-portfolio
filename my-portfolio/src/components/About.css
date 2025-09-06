@@ -1,5 +1,5 @@
 .About--grid {
-    margin: 2% 5%;
+    margin: 2% 9%;
     display: grid;
     grid-template-columns: 0.6fr 1.4fr;
     grid-template-rows: 1fr;
@@ -27,6 +27,31 @@
         "About__introduction"
         "About__GetinT";
     grid-area: About_description;
+}
+
+.Introduction__container {
+    padding: 0px 25px 15px 25px;
+    border: 1px solid var(--text_color);
+    border-radius: 30px;
+}
+
+.Introduction__container--grid {
+    display: grid;
+    grid-template-columns: 1.4fr 0.6fr;
+    grid-template-rows: 1fr;
+    gap: 0px 50px;
+    grid-template-areas:
+        ". .";
+    grid-area: Introduction__container--grid;
+}
+
+.Introduction__container--grid img {
+    padding-bottom: 10px;
+    transform: scaleX(-1) translateY(-10px);
+}
+
+.Introduction__container--grid p {
+    text-align: justify;
 }
 
 .About__GetinT--grid {
