@@ -32,7 +32,7 @@
 .Introduction__container {
     padding: 0px 25px 15px 25px;
     border: 1px solid var(--text_color);
-    border-radius: 30px;
+    border-radius: 25px;
 }
 
 .Introduction__container--grid {
@@ -58,8 +58,109 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
-    gap: 0px 0px;
+    gap: 0px 30px;
     grid-template-areas:
         ". . .";
     grid-area: About__GetinT--grid;
+}
+
+.GetinT__Github,
+.GetinT__Linkedin,
+.GetinT__Mail {
+    border-radius: 25px;
+    padding: 10px;
+}
+
+.GetinT__Github img,
+.GetinT__Linkedin img,
+.GetinT__Mail img {
+    margin-bottom: 10%;
+}
+
+.GetinT__Github p,
+.GetinT__Linkedin p,
+.GetinT__Mail p {
+
+    padding: 0 20px;
+}
+
+.GetinT__Linkedin p,
+.GetinT__Mail p {
+    color: var(--bg_color)
+}
+
+.GetinT__Github {
+    border: 1px solid var(--text_color);
+}
+
+.GetinT__Linkedin {
+    background-color: var(--secondary_color);
+}
+
+.GetinT__Mail {
+    background-color: var(--text_color);
+}
+
+/* Linea con bolas clara */
+
+.linea-con-bolas {
+    position: relative;
+    width: 95%;
+    /* ancho de la línea */
+    height: 1px;
+    margin: 0 auto 10px auto;
+    background: #ececec;
+    /* color de la línea */
+}
+
+.linea-con-bolas::before,
+.linea-con-bolas::after {
+    content: "";
+    position: absolute;
+    top: 15%;
+    transform: translateY(-59%);
+    width: 5px;
+    height: 5px;
+    background: #ececec;
+    border-radius: 50%;
+}
+
+/* Linea con bolas oscura */
+
+.linea-con-bolas::before {
+    left: 0;
+}
+
+.linea-con-bolas::after {
+    right: 0;
+}
+
+.linea-con-bolasB {
+    position: relative;
+    width: 95%;
+    /* ancho de la línea */
+    height: 1px;
+    margin: 0 auto;
+    background: var(--text_color);
+    /* color de la línea */
+}
+
+.linea-con-bolasB::before,
+.linea-con-bolasB::after {
+    content: "";
+    position: absolute;
+    top: 15%;
+    transform: translateY(-49%);
+    width: 5px;
+    height: 5px;
+    background: var(--text_color);
+    border-radius: 50%;
+}
+
+.linea-con-bolas::before {
+    left: 0;
+}
+
+.linea-con-bolasB::after {
+    right: 0;
 }
