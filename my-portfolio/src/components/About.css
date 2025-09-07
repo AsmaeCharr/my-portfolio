@@ -43,6 +43,7 @@
     grid-template-areas:
         ". .";
     grid-area: Introduction__container--grid;
+    justify-items: stretch;
 }
 
 .Introduction__container--grid img {
@@ -80,7 +81,8 @@
 .GetinT__Github p,
 .GetinT__Linkedin p,
 .GetinT__Mail p {
-
+    font-size: small;
+    text-align: end;
     padding: 0 20px;
 }
 

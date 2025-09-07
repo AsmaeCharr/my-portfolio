@@ -21,7 +21,7 @@ function About() {
                         <h3>A junior web developer/designer</h3>
                         <div className='Introduction__container--grid'>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, urna eget faucibus volutpat, odio purus egestas nunc, eu pellentesque velit sem nec eros. Etiam egestas arcu eget orci scelerisque commodo. Fusce pharetra enim vitae lectus bibendum varius. Vivamus placerat aliquam lorem quis pharetra.</p>
-                            <img src={Introducction_illustration} alt="Web development illustration" height={150} />
+                            <img src={Introducction_illustration} alt="Web development illustration" height={120} />
                         </div>
                     </div>
                 </div>
@@ -41,7 +41,7 @@ function About() {
                         <div className='GetinT__Github'>
                             <img src={Github} alt="Github icon" height={60} />
                             <div class="linea-con-bolasB"></div>
-                            <p></p>
+                            <p>look into my projects</p>
                         </div>
                     </div>
                 </div>
