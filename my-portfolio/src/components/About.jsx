@@ -28,21 +28,27 @@ function About() {
                 <div className='About__GetinT'>
                     <h2>Get in touch</h2>
                     <div className='About__GetinT--grid GetinT'>
-                        <div className='GetinT__Mail'>
-                            <img src={Mail} alt="Mail icon" height={60} />
-                            <div class="linea-con-bolas"></div>
-                            <p>send me an email</p>
-                        </div>
-                        <div href="https://www.linkedin.com/in/asmae-c-3a10b2255/" className='GetinT__Linkedin'>
-                            <img src={Linkedin} alt="Linkedin icon" height={60} />
-                            <div class="linea-con-bolas"></div>
-                            <p>check out my profile</p>
-                        </div>
-                        <div className='GetinT__Github'>
-                            <img src={Github} alt="Github icon" height={60} />
-                            <div class="linea-con-bolasB"></div>
-                            <p>look into my projects</p>
-                        </div>
+                        <a href="mailto:asmaecharroudd@gmail.com">
+                            <div href="mailto:asmaecharroudd@gmail.com" className='GetinT__Mail'>
+                                <img src={Mail} alt="Mail icon" height={60} />
+                                <div class="linea-con-bolas"></div>
+                                <p>send me an email</p>
+                            </div>
+                        </a>
+                        <a href="https://www.linkedin.com/in/asmae-c-3a10b2255/">
+                            <div className='GetinT__Linkedin'>
+                                <img src={Linkedin} alt="Linkedin icon" height={60} />
+                                <div class="linea-con-bolas"></div>
+                                <p>check out my profile</p>
+                            </div>
+                        </a>
+                        <a href="https://github.com/AsmaeCharr">
+                            <div className='GetinT__Github'>
+                                <img src={Github} alt="Github icon" height={60} />
+                                <div class="linea-con-bolasB"></div>
+                                <p>look into my projects</p>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>
